@@ -1,6 +1,5 @@
 # 🌌 Story-SLM: End-to-End Generative Story Studio
 
-![Story-SLM Banner](story-slm/public/placeholder-logo.svg) 
 *(A gorgeous Next.js and PyTorch local generative text application)*
 
 **Story-SLM** is a bespoke, fully local, end-to-end Small Language Model (SLM) application designed for creative storytelling. Built entirely from scratch, it pairs a custom-trained **29.37M Parameter PyTorch GPT model** with a stunning, highly interactive **Next.js frontend**. 

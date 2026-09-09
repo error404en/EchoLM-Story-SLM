@@ -1,0 +1,10 @@
+Neon Horizon
+Atmosphere: Sci-Fi
+Prompt: Write a sci-fi story about a hacker running from androids.
+
+The hover-cab glided silently over the neon-soaked streets of Sector 4. Kai checked her wrist-pad; the encrypted message was still downloading. If the androids caught her before it finished, the rebellion was over.
+
+A siren wailed in the distance. She pulled her hood up and merged into the crowd of cyborgs.
+
+---
+Crafted with Story-SLM (7B parameters)

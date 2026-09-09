@@ -1,0 +1,206 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e10]:
+        - generic [ref=e11]: story-slm
+        - generic [ref=e12]: local studio
+      - generic [ref=e14]:
+        - button "Open library" [ref=e15] [cursor=pointer]
+        - button "Toggle display theme" [ref=e18] [cursor=pointer]
+        - generic [ref=e25]: A
+    - generic [ref=e26]:
+      - complementary [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - paragraph [ref=e30]: CREATE
+            - heading "Story studio" [level=1] [ref=e31]
+          - button "Collapse controls" [ref=e32] [cursor=pointer]
+        - generic [ref=e36]:
+          - text: Your story begins with
+          - generic [ref=e37]:
+            - textbox "Story prompt" [ref=e38]: Write a fantasy story about a boy who finds a dragon scale.
+            - generic [ref=e39]: 59/240
+        - region "Atmosphere" [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: Atmosphere
+            - generic [ref=e43]: Fantasy
+          - generic [ref=e44]:
+            - button "Fantasy" [pressed] [ref=e45] [cursor=pointer]
+            - button "Sci-Fi" [ref=e48] [cursor=pointer]
+            - button "Thriller" [ref=e51] [cursor=pointer]
+            - button "Romantic" [ref=e54] [cursor=pointer]
+            - button "Comedy" [ref=e57] [cursor=pointer]
+        - region "Parameters" [ref=e60]:
+          - generic [ref=e66]:
+            - generic [ref=e67]:
+              - text: Creativity
+              - generic [ref=e68]: 72%
+            - slider "Creativity 72%" [ref=e69]: "72"
+          - generic [ref=e70]:
+            - generic [ref=e71]:
+              - text: Story length
+              - generic [ref=e72]: 54%
+            - slider "Story length 54%" [ref=e73]: "54"
+        - generic [ref=e74]:
+          - button "Generate story ⌘ ↵" [ref=e75] [cursor=pointer]:
+            - generic [ref=e79]: Generate story
+            - generic [ref=e80]: ⌘ ↵
+          - paragraph [ref=e81]: Story-SLM · 7B parameters
+      - region "Generated story" [ref=e83]:
+        - generic [ref=e84]:
+          - generic [ref=e85]: Generated just now
+          - generic [ref=e88]:
+            - button "Copy story" [ref=e89] [cursor=pointer]
+            - button "Download story" [ref=e93] [cursor=pointer]
+            - button "More story options" [ref=e97] [cursor=pointer]
+        - article [ref=e102]:
+          - generic [ref=e103]:
+            - generic [ref=e104]: An epic fantasy tale
+            - heading "The Dragon's Scale" [level=2] [ref=e108]
+            - paragraph [ref=e110]: In the ancient forest of Eldoria, a young boy found a shimmering green scale. When he held it to the light, he could hear the distant roar of a creature long thought to be a myth.
+            - paragraph [ref=e111]: He packed a small bag and set off towards the mountains. He didn't know what he would find, but the scale hummed in his pocket, guiding him forward.
+        - generic [ref=e118]:
+          - generic [ref=e119]: 01 / 01
+          - generic [ref=e120]: Crafted with intention
+          - generic [ref=e121]: A small story, made for you
+    - region [ref=e122]:
+      - generic [ref=e123]:
+        - paragraph [ref=e124]: PHASE 01 · MODEL EVALUATION
+        - heading [level=2] [ref=e125]:
+          - text: Small footprint.
+          - emphasis [ref=e126]: Serious signal.
+        - paragraph [ref=e127]: Story-SLM is built to be expressive without being expensive. Explore the first comprehensive evaluation through interactive views of quality, speed, and model efficiency.
+        - generic [ref=e128]:
+          - generic [ref=e129]: Validated checkpoint
+          - generic [ref=e133]: Tesla T4 tested
+      - generic [ref=e138]:
+        - generic [ref=e140]:
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - paragraph [ref=e143]: CAPABILITY PROFILE
+              - heading "Five signals, one model" [level=3] [ref=e144]
+            - img "Hover the vertices to inspect each signal" [ref=e145]
+          - generic [ref=e147]:
+            - img "Interactive pentagonal model capability chart" [ref=e148]:
+              - generic [ref=e153]: Accuracy
+              - generic [ref=e156]: Diversity
+              - generic [ref=e160]: Speed
+              - generic [ref=e164]: Compactness
+              - generic [ref=e168]: Consistency
+            - generic:
+              - strong: "84"
+              - generic: overall signalindex
+        - generic [ref=e174]:
+          - generic [ref=e176]:
+            - paragraph [ref=e177]: LEARNING CURVE
+            - heading "Accuracy keeps climbing" [level=3] [ref=e178]
+          - img "Next-token accuracy trend by training step" [ref=e182]:
+            - generic [ref=e185]: 1k
+            - generic [ref=e188]: 5k
+            - generic [ref=e191]: 10k
+            - generic [ref=e194]: 15k
+            - generic [ref=e197]: 20k
+          - generic [ref=e200]:
+            - generic [ref=e201]: Validation accuracy
+            - generic [ref=e202]: +17.43 pts
+        - generic [ref=e204]:
+          - generic [ref=e206]:
+            - paragraph [ref=e207]: THE NUMBERS
+            - heading "Evaluation at a glance" [level=3] [ref=e208]
+          - generic [ref=e213]:
+            - button "Next-token accuracy 62.63%" [ref=e214] [cursor=pointer]:
+              - generic [ref=e215]: Next-token accuracy
+              - strong [ref=e216]: 62.63%
+            - button "Generation speed 287.11 tok/s" [ref=e217] [cursor=pointer]:
+              - generic [ref=e218]: Generation speed
+              - strong [ref=e219]: 287.11 tok/s
+            - button "Model size 113.03 MB" [ref=e220] [cursor=pointer]:
+              - generic [ref=e221]: Model size
+              - strong [ref=e222]: 113.03 MB
+            - button "Vocabulary variety 0.8891" [ref=e223] [cursor=pointer]:
+              - generic [ref=e224]: Vocabulary variety
+              - strong [ref=e225]: "0.8891"
+            - button "Average output 107.8 tokens" [ref=e226] [cursor=pointer]:
+              - generic [ref=e227]: Average output
+              - strong [ref=e228]: 107.8 tokens
+            - button "Trainable parameters 29.63 M" [ref=e229] [cursor=pointer]:
+              - generic [ref=e230]: Trainable parameters
+              - strong [ref=e231]: 29.63 M
+          - generic [ref=e232]:
+            - generic [ref=e233]: Exact match on validation
+            - generic [ref=e234]: Next-token accuracy
+        - generic [ref=e236]:
+          - generic [ref=e238]:
+            - paragraph [ref=e239]: RUNTIME PROFILE
+            - heading "Fast enough to feel alive" [level=3] [ref=e240]
+          - generic [ref=e244]:
+            - strong [ref=e245]: "375.47"
+            - generic [ref=e246]: ms average inference latency
+          - generic [ref=e251]:
+            - generic [ref=e252]: latency
+            - generic [ref=e253]: memory · 3.05 GB
+      - region [ref=e254]:
+        - generic [ref=e255]:
+          - generic [ref=e256]:
+            - paragraph [ref=e257]: D3.JS · TOKEN PROBABILITY FIELD
+            - heading [level=2] [ref=e258]:
+              - text: See the sentence
+              - emphasis [ref=e259]: become a thought.
+          - paragraph [ref=e260]: Every word is split into a token, then placed into a quadtree spatial index. Brighter, larger nodes carry more confidence; the branches reveal how the model distributes attention across the sequence.
+        - generic [ref=e261]:
+          - generic [ref=e262]:
+            - generic [ref=e263]: QUADTREE / 4 DEPTH LEVELS
+            - generic [ref=e268]: HOVER A TOKEN TO INSPECT
+          - generic [ref=e272]:
+            - img "Quadtree visualization of sentence tokens and their probabilities" [ref=e273]:
+              - button "Write, 53 percent probability" [ref=e289] [cursor=pointer]:
+                - generic: Write
+                - generic: 53%
+              - button "a, 94 percent probability" [ref=e293] [cursor=pointer]:
+                - generic: a
+                - generic: 94%
+              - button "fantasy, 86 percent probability" [ref=e297] [cursor=pointer]:
+                - generic: fantasy
+                - generic: 86%
+              - button "story, 88 percent probability" [ref=e301] [cursor=pointer]:
+                - generic: story
+                - generic: 88%
+              - button "about, 95 percent probability" [ref=e305] [cursor=pointer]:
+                - generic: about
+                - generic: 95%
+              - button "a, 82 percent probability" [ref=e309] [cursor=pointer]:
+                - generic: a
+                - generic: 82%
+              - button "boy, 80 percent probability" [ref=e313] [cursor=pointer]:
+                - generic: boy
+                - generic: 80%
+              - button "who, 52 percent probability" [ref=e317] [cursor=pointer]:
+                - generic: who
+                - generic: 52%
+              - button "finds, 98 percent probability" [ref=e321] [cursor=pointer]:
+                - generic: finds
+                - generic: 98%
+              - button "a, 70 percent probability" [ref=e325] [cursor=pointer]:
+                - generic: a
+                - generic: 70%
+              - button "dragon, 51 percent probability" [ref=e329] [cursor=pointer]:
+                - generic: dragon
+                - generic: 51%
+              - button "scale, 80 percent probability" [ref=e333] [cursor=pointer]:
+                - generic: scale
+                - generic: 80%
+              - button "., 98 percent probability" [ref=e337] [cursor=pointer]:
+                - generic: .
+                - generic: 98%
+              - generic [ref=e341]:
+                - generic [ref=e342]: CONTEXT START
+                - generic [ref=e343]: NEXT TOKEN
+            - generic:
+              - generic: INSPECTED NODE
+              - strong: Write
+              - generic: 53% probability
+              - generic: Token 1 of 13 · confidence radius 22px
+          - generic [ref=e344]:
+            - generic [ref=e345]: Write a fantasy story about a boy who finds a dragon scale.
+            - generic [ref=e349]: Probability is represented by node scale + luminance
+  - button "Open Next.js Dev Tools" [ref=e355] [cursor=pointer]

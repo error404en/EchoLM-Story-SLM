@@ -1,0 +1,17 @@
+# Model checkpoints
+*.pt
+*.bin
+*.ckpt
+*.safetensors
+
+# Media
+*.mp4
+*.webm
+
+# MacOS
+.DS_Store
+
+# Virtual environments
+venv/
+.env
+__pycache__/

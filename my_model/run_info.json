@@ -1,0 +1,29 @@
+{
+  "preset": "small",
+  "config": {
+    "dataset_name": "roneneldan/TinyStories",
+    "vocab_size": 8192,
+    "n_layer": 8,
+    "n_head": 8,
+    "n_embd": 512,
+    "block_size": 512,
+    "dropout": 0.1,
+    "bias": false,
+    "batch_size": 32,
+    "grad_accum_steps": 4,
+    "max_steps": 20000,
+    "warmup_steps": 300,
+    "lr": 0.0003,
+    "min_lr": 3e-05,
+    "weight_decay": 0.1,
+    "grad_clip": 1.0,
+    "eval_interval": 250,
+    "eval_iters": 50,
+    "save_interval": 500,
+    "sample_interval": 500,
+    "keep_last_n_ckpts": 3,
+    "work_dir": "/kaggle/working"
+  },
+  "params_millions": 29.37,
+  "vocab_size": 8192
+}

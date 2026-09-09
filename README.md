@@ -133,4 +133,4 @@ Place your `latest.pt` (or equivalent checkpoint) inside the `my_model/checkpoin
 - [ ] **Custom Training Configurator:** A dedicated UI panel to view training loss graphs and actively tweak inference hyperparameters directly from the dashboard.
 
 ---
-*Built with ❤️ for advanced Agentic UI workflows and AI storytelling.*
+*Built for advanced Agentic UI workflows and AI storytelling.*
